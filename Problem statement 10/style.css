@@ -13,7 +13,7 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Card */
+
 .card {
   width: 320px;
   background-color: white;
@@ -28,7 +28,6 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Profile Image */
 .profile-img {
   width: 120px;
   height: 120px;
@@ -37,20 +36,20 @@ body {
   margin-bottom: 12px;
 }
 
-/* Name */
+
 .name {
   font-size: 20px;
   margin-bottom: 8px;
 }
 
-/* Bio */
+
 .bio {
   font-size: 14px;
   color: #555;
   margin-bottom: 16px;
 }
 
-/* Info Section */
+
 .info {
   display: flex;
   justify-content: space-between;
@@ -70,7 +69,7 @@ body {
   color: #666;
 }
 
-/* Button */
+
 .follow-btn {
   width: 100%;
   padding: 10px;
@@ -86,7 +85,7 @@ body {
   background-color: #0056b3;
 }
 
-/* Responsive */
+
 @media (max-width: 400px) {
   .card {
     width: 90%;
