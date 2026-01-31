@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"></div>
+
+    
+</body>
+
+<script>
+    const container = document.getElementById("container");
+    const ul = document.createElement("ul");
+    const students=[{name:"Aarav",marks:85},{ name:"Pranjal" , marks:92}, {name:"Abhay",marks:78}];
+
+    students.forEach((student) =>{
+        const li = document.createElement("li");
+        li.textContent = `${student.name} - ${student.marks}`;
+        li.style.backgroundColor = "lightblue";
+        ul.appendChild(li);
+    });
+
+    container.appendChild(ul);
+</script>
+</html>

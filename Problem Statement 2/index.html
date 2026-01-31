@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        .main-heading {
+            font-size : 32px;
+            font-family : Arial, sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading"></h1>
+</body>
+<script>
+    const heading = document.getElementById("heading");
+    heading.textContent = "We know that you are giving your 100% effort! Thanks mam";
+    heading.style.color = "green";
+    heading.style.backgroundColor = "lightgray";
+    heading.style.textAlign = "center";
+    
+    heading.ClassList.add("main-heading");
+
+</script>
+</html>
